@@ -40,8 +40,7 @@ const slideContent = [
   {
     layout: 'layout-infographic',
     title: 'Tu Programa de Transformación',
-    content: '<p>Ubicar la sesión dentro del pilar de Inversión, conectándolo con los pilares de Equipo y Ventas para mostrar la visión integral. El objetivo es la <strong>Sostenibilidad</strong> del negocio.</p><div class="icon-grid"><div class="icon-item"><i class="fas fa-users"></i><p>Equipo</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-chart-line"></i><p>Ventas</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-coins" style="color: var(--accent-color);"></i><p><strong>Inversión</strong></p></div></div>',
-    image: 'assets/images/slide-3.jpeg'
+    content: '<p>Ubicar la sesión dentro del pilar de Inversión, conectándolo con los pilares de Equipo y Ventas para mostrar la visión integral. El objetivo es la <strong>Sostenibilidad</strong> del negocio.</p><div class="icon-grid"><div class="icon-item"><i class="fas fa-users"></i><p>Equipo</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-chart-line"></i><p>Ventas</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-coins" style="color: var(--accent-color);"></i><p><strong>Inversión</strong></p></div></div>'
   },
   // Lámina 4
   {
