@@ -127,3 +127,44 @@
     max-height: 90px;  /* Tamaño pequeño para el logo */
     width: auto;
 }
+
+/* --- Estilos finales y específicos para Diapositiva 2 (según boceto) --- */
+
+.slide-2-custom-columns {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el contenido de las columnas */
+  justify-content: center;
+  gap: 40px; /* Espacio entre las dos columnas */
+  width: 100%;
+}
+
+.slide-2-custom-columns .column-left,
+.slide-2-custom-columns .column-right {
+  flex: 1; /* Hace que cada columna ocupe el 50% del espacio disponible */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido dentro de cada columna */
+  justify-content: center;
+}
+
+/* Estilos para el contenido de la columna izquierda */
+.column-left .logo-final {
+  max-height: 130px;
+  width: auto;
+  margin-bottom: 25px;
+}
+.column-left .quote-final {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-left: 4px solid var(--accent-color);
+  padding-left: 15px;
+}
+
+/* Estilo para la imagen de la columna derecha */
+.column-right .image-final {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover; /* Asegura que la imagen llene el espacio sin deformarse */
+  border-radius: 10px;
+}
