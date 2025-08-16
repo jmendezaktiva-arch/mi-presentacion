@@ -23,7 +23,7 @@ const slideContent = [
       <div class="right-content-wrapper">
         <p>Reforzar que somos el socio estratégico para la transformación sostenible de las PYMES, basados en una <strong>metodología probada</strong>.</p>
         <h3 class="quote-esencia">"Construimos empresas sólidas y sostenibles."</h3>
-        <img src="assets/images/slide-2.1.jpeg" alt="Logo Mi Empresa Crece" class="logo-esencia-small">
+        <img src="assets/images/slide-2.1.png" alt="Logo Mi Empresa Crece" class="logo-esencia-small">
       </div>
     `,
     
