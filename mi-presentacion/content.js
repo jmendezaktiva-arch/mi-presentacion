@@ -101,16 +101,9 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'Nuestra Ruta de Implementación (El "Cómo")',
-    content: '<p>Traducir la teoría en un plan de acción concreto: el <strong>Flujo Consultivo</strong>. Se muestra el viaje paso a paso que realizarán durante las actividades.</p>',
     image: 'assets/images/slide-8.jpeg'
   },
-  // Lámina 9 - Título Bloque 2
-  {
-    layout: 'layout-center-focus',
-    title: 'BLOQUE 2: TALLER DE CONSTRUCCIÓN',
-    background: 'var(--primary-color)',
-    titleColor: 'white'
-  },
+
   // Lámina 10
   {
     layout: 'layout-split',
