@@ -170,15 +170,36 @@
 }
 
 /* --- Estilos para Diapositiva 3 (Infografía Horizontal) --- */
+/* REEMPLAZA las reglas anteriores de .icon-grid con este bloque */
 
 .icon-grid {
   display: flex;
   justify-content: center;   /* Mantiene el centrado horizontal */
-  align-items: center;
-  gap: 50px;
+  align-items: center;       /* Alinea los elementos verticalmente entre sí */
+  gap: 50px;                 /* Aumenta el espacio entre elementos */
   width: 100%;
-  margin-top: 100px;         /* Añade espacio debajo del título */
-  /* Se elimina 'flex-grow: 1' para que los iconos no se centren verticalmente en toda la página */
+  flex-grow: 1;              /* Clave para el centrado vertical: ocupa el espacio disponible */
+}
+
+.icon-grid .icon-item {
+  text-align: center;
+}
+
+/* Aumenta el tamaño de los iconos */
+.icon-grid .icon-item i {
+  font-size: 4em;  /* Tamaño de icono incrementado */
+  margin-bottom: 15px;
+}
+
+/* Aumenta el tamaño de los títulos debajo de los iconos */
+.icon-grid .icon-item p {
+  font-size: 1.2em; /* Tamaño de texto incrementado */
+  font-weight: bold;
+}
+
+/* Aumenta el tamaño de las flechas conectoras */
+.icon-grid .connector {
+  font-size: 2.5em;
 }
 
 /* --- Estilos para Diapositiva 6 (Diseño de 3 columnas) --- */
