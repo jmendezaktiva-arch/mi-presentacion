@@ -66,3 +66,28 @@
 .infographic-list { list-style: none; padding: 0; text-align: left; margin-left: 20px;}
 .infographic-list li { display: flex; align-items: flex-start; margin-bottom: 25px; font-size: 0.9em; }
 .infographic-list i { font-size: 1.8em; color: var(--accent-color); margin-right: 20px; width: 45px; text-align: center; margin-top: 5px;}
+
+/* --- AJUSTES DE CENTRADO Y TAMAÑO --- */
+
+/* Centra el contenido de TODAS las diapositivas verticalmente */
+.reveal .slides section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box; /* Asegura que el padding no cause desbordamiento */
+}
+
+/* Limita el tamaño de las imágenes para que no se recorten */
+.reveal .slides img {
+    max-height: 80%; /* Asegura que la imagen no ocupe más del 80% del alto */
+    max-width: 100%; /* Evita que se desborde a los lados */
+    object-fit: contain; /* Escala la imagen para que quepa sin deformarse */
+}
+
+/* Ajuste específico para el layout de pantalla dividida */
+.layout-split .content-wrapper {
+    width: 100%;
+}
