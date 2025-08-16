@@ -20,7 +20,7 @@
 .reveal .slides section {
     display: flex;
     flex-direction: column;
-    justify-content: center; center
+    justify-content: center; /* <-- Palabra "center" eliminada */
     height: 100%;
     padding: 2vw;
     box-sizing: border-box;
