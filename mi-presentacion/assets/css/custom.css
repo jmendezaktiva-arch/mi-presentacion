@@ -192,3 +192,27 @@
 .icon-grid .connector {
   font-size: 2.2em;          /* Aumenta el tamaño de la flecha */
 }
+
+/* --- Estilos para la Diapositiva 3 (Infografía Horizontal) --- */
+
+.icon-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  /* margin-top: 50px; <-- Eliminado */
+  width: 100%;
+}
+
+.icon-grid .icon-item {
+  text-align: center;        /* Centra el texto debajo de cada icono */
+}
+
+.icon-grid .icon-item i {
+  font-size: 2.8em;          /* Aumenta el tamaño del icono */
+  margin-bottom: 10px;
+}
+
+.icon-grid .connector {
+  font-size: 2.2em;          /* Aumenta el tamaño de la flecha */
+}
