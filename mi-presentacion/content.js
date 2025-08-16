@@ -13,12 +13,24 @@ const slideContent = [
     background: '' // 5. Se elimina el fondo para quitar la marca de agua "Plano sutil".
   },
   // Lámina 2
-  {
-    layout: 'layout-split',
+ {
+    layout: 'layout-default', // Se cambia a un layout más flexible.
     title: 'Mi Empresa Crece: Nuestra Esencia',
-    content: '<p>Reforzar que somos el socio estratégico para la transformación sostenible de las PYMES, basados en una <strong>metodología probada</strong>.</p><h3 style="margin-top: 30px; border-left: 4px solid var(--accent-color); padding-left: 15px; color: var(--text-color);">"Construimos empresas sólidas y sostenibles."</h3>',
-    image: 'assets/images/slide-2.1.jpeg',
-    image2: 'assets/images/slide-2.jpeg'
+    // Se reestructura el contenido para seguir el orden que pediste:
+    // 1. Texto -> 2. Frase -> 3. Contenedor con las dos imágenes.
+    content: `
+      <p style="text-align: center; max-width: 80%; margin: 0 auto;">
+        Reforzar que somos el socio estratégico para la transformación sostenible de las PYMES, basados en una <strong>metodología probada</strong>.
+      </p>
+      <h3 style="text-align: center; margin-top: 30px; border-left: 4px solid var(--accent-color); padding-left: 15px; display: inline-block;">
+        "Construimos empresas sólidas y sostenibles."
+      </h3>
+      <div class="image-container-esencia">
+        <img src="assets/images/slide-2.1.jpeg" alt="Logo Mi Empresa Crece" style="max-height: 200px;" />
+        <img src="assets/images/slide-2.jpeg" alt="Empresas en construcción" style="max-height: 200px;" />
+      </div>
+    `
+    // Las propiedades 'image' e 'image2' se eliminan, ya que ahora están dentro de 'content'.
   },
   // Lámina 3
   {
