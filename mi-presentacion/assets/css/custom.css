@@ -169,52 +169,37 @@
   border-radius: 10px;
 }
 
-/* --- Estilos para la Diapositiva 3 (Infografía Horizontal) --- */
-
-.icon-grid {
-  display: flex;             /* 1. Cambia la orientación a horizontal */
-  justify-content: center;   /* 2. Centra el grupo de iconos en la página */
-  align-items: center;       /* Alinea verticalmente los iconos y las flechas */
-  gap: 25px;                 /* Espacio entre los elementos */
-  margin-top: 50px;          /* Espacio desde el texto superior */
-  width: 100%;
-}
-
-.icon-grid .icon-item {
-  text-align: center;        /* Centra el texto debajo de cada icono */
-}
-
-.icon-grid .icon-item i {
-  font-size: 2.8em;          /* Aumenta el tamaño del icono */
-  margin-bottom: 10px;
-}
-
-.icon-grid .connector {
-  font-size: 2.2em;          /* Aumenta el tamaño de la flecha */
-}
-
-/* --- Estilos para la Diapositiva 3 (Infografía Horizontal) --- */
+/* --- Estilos para Diapositiva 3 (Infografía Horizontal) --- */
+/* REEMPLAZA las reglas anteriores de .icon-grid con este bloque */
 
 .icon-grid {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-  /* margin-top: 50px; <-- Eliminado */
+  justify-content: center;   /* Centra horizontalmente */
+  align-items: center;       /* Alinea los elementos verticalmente entre sí */
+  gap: 50px;                 /* Aumenta el espacio entre elementos */
   width: 100%;
+  flex-grow: 1;              /* Clave para el centrado vertical: ocupa el espacio disponible */
 }
 
 .icon-grid .icon-item {
-  text-align: center;        /* Centra el texto debajo de cada icono */
+  text-align: center;
 }
 
+/* Aumenta el tamaño de los iconos */
 .icon-grid .icon-item i {
-  font-size: 2.8em;          /* Aumenta el tamaño del icono */
-  margin-bottom: 10px;
+  font-size: 4em;  /* Tamaño de icono incrementado */
+  margin-bottom: 15px;
 }
 
+/* Aumenta el tamaño de los títulos debajo de los iconos */
+.icon-grid .icon-item p {
+  font-size: 1.2em; /* Tamaño de texto incrementado */
+  font-weight: bold;
+}
+
+/* Aumenta el tamaño de las flechas conectoras */
 .icon-grid .connector {
-  font-size: 2.2em;          /* Aumenta el tamaño de la flecha */
+  font-size: 2.5em;
 }
 
 /* --- Estilos para Diapositiva 6 (Diseño de 3 columnas) --- */
