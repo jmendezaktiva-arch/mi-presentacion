@@ -61,7 +61,6 @@ const slideContent = [
     layout: 'layout-default', // Usamos un layout flexible para control total
     title: 'Objetivos de Hoy: Tu Kit de Herramientas',
     content: `
-      <p>Presentar los objetivos como un "kit de herramientas" que se llevarán.</p>
       
       <div class="slide-6-three-columns">
         
