@@ -95,7 +95,7 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'El Mapa de Conceptos (El "Porqué")',
-    image: 'assets/images/slide-7.jpeg'
+    image: 'assets/images/slide-7.jpg'
   },
   // Lámina 8
   {
