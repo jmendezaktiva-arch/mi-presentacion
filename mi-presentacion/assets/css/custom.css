@@ -92,3 +92,38 @@
     margin-top: 30px; /* Espacio sobre las imágenes */
     width: 100%;
 }
+/* --- Estilos específicos para Diapositiva 2 (Último Ajuste) --- */
+
+/* Centra el título en todos los layouts divididos */
+.layout-split h1 {
+    text-align: center;
+    width: 100%;
+}
+
+/* Invierte el orden de las columnas: imagen a la izquierda y texto a la derecha */
+.slide-2-reversed .content-wrapper {
+    flex-direction: row-reverse;
+}
+
+/* Centra todo el contenido del bloque derecho */
+.right-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+/* Estilo para la frase destacada */
+.right-content-wrapper .quote-esencia {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+/* 3. Reduce y ajusta el tamaño del logo */
+.right-content-wrapper .logo-esencia-small {
+    margin-top: 30px;
+    max-height: 90px;  /* Tamaño pequeño para el logo */
+    width: auto;
+}
