@@ -37,9 +37,10 @@ const slideContent = [
   },
   // Lámina 3
   {
-    layout: 'layout-infographic',
-    title: 'Tu Programa de Transformación',
-    content: '<strong>Sostenibilidad</strong> del negocio.</p><div class="icon-grid"><div class="icon-item"><i class="fas fa-users"></i><p>Equipo</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-chart-line"></i><p>Ventas</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-coins" style="color: var(--accent-color);"></i><p><strong>Inversión</strong></p></div></div>'
+  layout: 'layout-infographic',
+  title: 'Tu Programa de Transformación',
+  // Se elimina el texto que estaba antes del icon-grid para permitir el centrado vertical.
+  content: '<div class="icon-grid"><div class="icon-item"><i class="fas fa-users"></i><p>Equipo</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-chart-line"></i><p>Ventas</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-coins" style="color: var(--accent-color);"></i><p><strong>Inversión</strong></p></div></div>'
   },
   // Lámina 4
   {
