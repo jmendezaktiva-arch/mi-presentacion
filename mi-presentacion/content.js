@@ -95,7 +95,6 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'El Mapa de Conceptos (El "Porqué")',
-    content: '<p>Presentar la Estrategia teórica en un solo vistazo. El mapa debe mostrar visualmente cómo el <strong>Marco 4+1</strong> resuelve los problemas frecuentes de inversión en PYMES, partiendo siempre del <strong>Flujo de Caja Libre</strong>.</p>',
     image: 'assets/images/slide-7.jpeg'
   },
   // Lámina 8
