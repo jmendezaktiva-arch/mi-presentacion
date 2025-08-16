@@ -26,7 +26,7 @@ const slideContent = [
         "Construimos empresas sólidas y sostenibles."
       </h3>
       <div class="image-container-esencia">
-        <img src="assets/images/slide-2.1.jpeg" alt="Logo Mi Empresa Crece" style="max-height: 200px;" />
+        <img src="assets/images/slide-2.1.png" alt="Logo Mi Empresa Crece" style="max-height: 200px;" />
         <img src="assets/images/slide-2.jpeg" alt="Empresas en construcción" style="max-height: 200px;" />
       </div>
     `
