@@ -14,23 +14,21 @@ const slideContent = [
   },
   // Lámina 2
  {
-    layout: 'layout-default', // Se cambia a un layout más flexible.
+    // Se añade una clase 'slide-2-reversed' para poder invertir el orden con CSS
+    layout: 'layout-split slide-2-reversed', 
     title: 'Mi Empresa Crece: Nuestra Esencia',
-    // Se reestructura el contenido para seguir el orden que pediste:
-    // 1. Texto -> 2. Frase -> 3. Contenedor con las dos imágenes.
+
+    // 2. Este será el contenido del lado DERECHO
     content: `
-      <p style="text-align: center; max-width: 80%; margin: 0 auto;">
-        Reforzar que somos el socio estratégico para la transformación sostenible de las PYMES, basados en una <strong>metodología probada</strong>.
-      </p>
-      <h3 style="text-align: center; margin-top: 30px; border-left: 4px solid var(--accent-color); padding-left: 15px; display: inline-block;">
-        "Construimos empresas sólidas y sostenibles."
-      </h3>
-      <div class="image-container-esencia">
-        <img src="assets/images/slide-2.1.png" alt="Logo Mi Empresa Crece" style="max-height: 200px;" />
-        <img src="assets/images/slide-2.jpeg" alt="Empresas en construcción" style="max-height: 200px;" />
+      <div class="right-content-wrapper">
+        <p>Reforzar que somos el socio estratégico para la transformación sostenible de las PYMES, basados en una <strong>metodología probada</strong>.</p>
+        <h3 class="quote-esencia">"Construimos empresas sólidas y sostenibles."</h3>
+        <img src="assets/images/slide-2.1.jpeg" alt="Logo Mi Empresa Crece" class="logo-esencia-small">
       </div>
-    `
-    // Las propiedades 'image' e 'image2' se eliminan, ya que ahora están dentro de 'content'.
+    `,
+    
+    // 1. Esta será la imagen del lado IZQUIERDO
+    image: 'assets/images/slide-2.jpeg'
   },
   // Lámina 3
   {
