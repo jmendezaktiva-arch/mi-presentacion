@@ -13,22 +13,28 @@ const slideContent = [
     background: '' // 5. Se elimina el fondo para quitar la marca de agua "Plano sutil".
   },
   // Lámina 2
- {
-    // Se añade una clase 'slide-2-reversed' para poder invertir el orden con CSS
-    layout: 'layout-split slide-2-reversed', 
+   {
+    layout: 'layout-default', // Usamos un layout base para control total
     title: 'Mi Empresa Crece: Nuestra Esencia',
-
-    // 2. Este será el contenido del lado DERECHO
     content: `
-      <div class="right-content-wrapper">
-        <p>Reforzar que somos el socio estratégico para la transformación sostenible de las PYMES, basados en una <strong>metodología probada</strong>.</p>
-        <h3 class="quote-esencia">"Construimos empresas sólidas y sostenibles."</h3>
-        <img src="assets/images/slide-2.1.png" alt="Logo Mi Empresa Crece" class="logo-esencia-small">
+      <p style="text-align: center; max-width: 80%; margin: 0 auto 30px auto;">
+        Reforzar que somos el socio estratégico para la transformación sostenible de las PYMES, basados en una <strong>metodología probada</strong>.
+      </p>
+
+      <div class="slide-2-custom-columns">
+        
+        <div class="column-left">
+          <img src="assets/images/slide-2.1.png" alt="Logo Mi Empresa Crece" class="logo-final">
+          <h3 class="quote-final">"Construimos empresas sólidas y sostenibles."</h3>
+        </div>
+        
+        <div class="column-right">
+          <img src="assets/images/slide-2.jpeg" alt="Empresas en construcción" class="image-final">
+        </div>
+
       </div>
-    `,
-    
-    // 1. Esta será la imagen del lado IZQUIERDO
-    image: 'assets/images/slide-2.jpeg'
+    `
+    // Ya no se usan las propiedades 'image' o 'image2'
   },
   // Lámina 3
   {
