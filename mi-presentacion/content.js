@@ -57,11 +57,40 @@ const slideContent = [
     content: '<p>Establecer un marco de Responsabilidad y compromiso. No son reglas, son los <strong>cimientos para construir juntos</strong>.</p><ul class="infographic-list" style="margin-top: 50px;"><li><i class="fas fa-video"></i> <div><strong>Cámara encendida = Compromiso</strong><br>Estar presente y conectado con el grupo.</div></li><li><i class="fas fa-microphone-lines"></i> <div><strong>Participación activa = Proactividad</strong><br>Tu aprendizaje depende de tu involucramiento.</div></li><li><i class="fas fa-lightbulb"></i> <div><strong>Mente abierta = Crecimiento</strong><br>Dispuesto a desaprender y adoptar nuevos métodos.</div></li><li><i class="fas fa-clock"></i> <div><strong>Puntualidad = Respeto</strong><br>Valoramos tu tiempo y el de los demás.</div></li></ul>'
   },
   // Lámina 6
-  {
-    layout: 'layout-infographic',
+{
+    layout: 'layout-default', // Usamos un layout flexible para control total
     title: 'Objetivos de Hoy: Tu Kit de Herramientas',
-    content: '<p>Presentar los objetivos como un "kit de herramientas" que se llevarán.</p><div class="content-wrapper" style="display: flex; gap: 40px; text-align: left; margin-top: 40px;"><div><h3><i class="fas fa-tools" style="color: var(--secondary-color);"></i> Herramientas Duras</h3><ul><li>El "termómetro" del Flujo de Caja Libre</li><li>El sistema de Filtros 4+1</li><li>La "calculadora" de ROI anualizado</li><li>El Mapa de Riesgos</li></ul></div><div><h3><i class="fas fa-brain" style="color: var(--secondary-color);"></i> Mindset del Arquitecto</h3><ul><li>Disciplina</li><li>Confianza basada en datos</li><li>Visión estratégica</li></ul></div></div>',
-    image: 'assets/images/slide-6.jpeg'
+    content: `
+      <p>Presentar los objetivos como un "kit de herramientas" que se llevarán.</p>
+      
+      <div class="slide-6-three-columns">
+        
+        <div class="text-column">
+          <h3><i class="fas fa-tools" style="color: var(--secondary-color);"></i> Herramientas Duras</h3>
+          <ul>
+            <li>El "termómetro" del Flujo de Caja Libre</li>
+            <li>El sistema de Filtros 4+1</li>
+            <li>La "calculadora" de ROI anualizado</li>
+            <li>El Mapa de Riesgos</li>
+          </ul>
+        </div>
+
+        <div class="text-column">
+          <h3><i class="fas fa-brain" style="color: var(--secondary-color);"></i> Mindset del Arquitecto</h3>
+          <ul>
+            <li>Disciplina</li>
+            <li>Confianza basada en datos</li>
+            <li>Visión estratégica</li>
+          </ul>
+        </div>
+
+        <div class="image-column">
+          <img src="assets/images/slide-6.jpeg" alt="Kit de Herramientas">
+        </div>
+
+      </div>
+    `
+    // La propiedad 'image' se elimina porque la imagen ya está dentro de 'content'
   },
   // Lámina 7
   {
