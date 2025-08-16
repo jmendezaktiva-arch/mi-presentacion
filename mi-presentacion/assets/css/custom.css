@@ -216,3 +216,34 @@
 .icon-grid .connector {
   font-size: 2.2em;          /* Aumenta el tamaño de la flecha */
 }
+
+/* --- Estilos para Diapositiva 6 (Diseño de 3 columnas) --- */
+
+.slide-6-three-columns {
+  display: flex;
+  align-items: flex-start; /* Alinea las columnas en la parte superior */
+  justify-content: center;
+  gap: 30px;               /* Espacio entre las columnas */
+  margin-top: 40px;
+  width: 100%;
+}
+
+.slide-6-three-columns .text-column {
+  flex: 1; /* Asigna espacio igual a las columnas de texto */
+  text-align: left;
+}
+
+.slide-6-three-columns .image-column {
+  flex: 1; /* Asigna espacio igual a la columna de la imagen */
+}
+
+.slide-6-three-columns ul {
+  padding-left: 20px; /* Añade un poco de sangría a las listas */
+  margin: 0;
+}
+
+.slide-6-three-columns .image-column img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
