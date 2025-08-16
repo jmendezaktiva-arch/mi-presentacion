@@ -108,63 +108,58 @@ const slideContent = [
   {
     layout: 'layout-split',
     title: 'Actividad 1: Diagnóstico de Honestidad Radical',
-    content: '<p><strong>Meta:</strong> Exponer los patrones de decisión actuales para crear una necesidad genuina de cambio.</p><h3>Instrucciones:</h3><ol><li>Abre tu Workbook - Ejercicio 1.</li><li>Sé <strong>brutalmente honesto</strong>. Este es un espejo, no un examen.</li><li>Reflexiona y anota: ¿Cuál es el hábito N°1 que más se repite en tus decisiones financieras?</li></ol>',
-    image: 'https://placehold.co/500x350/eeeeee/333333?text=Visual+Ejercicio+1'
+    content: 'Instrucciones:</h3><ol><li>Abre tu Workbook - Ejercicio 1.</li><li>Sé <strong>brutalmente honesto</strong>. Este es un espejo, no un examen.</li><li>Reflexiona y anota: ¿Cuál es el hábito N°1 que más se repite en tus decisiones financieras?</li></ol>',
+    image: 'assets/images/slide-10.png'
   },
    // Lámina 11
   {
     layout: 'layout-split',
     title: 'Actividad 2: Del Hábito al Método',
-    content: '<p><strong>Meta:</strong> Convertir la conciencia del problema en un <strong>compromiso activo</strong> y un plan de acción.</p><h3>Instrucciones:</h3><ol><li>Ve al Ejercicio 2 de tu Workbook.</li><li>Para cada "Hábito de Riesgo", define tu "Primer Paso para Implementar" la buena práctica.</li><li>Crea un puente claro entre el problema y la solución.</li></ol>',
-    image: 'https://placehold.co/500x350/eeeeee/333333?text=Visual+Ejercicio+2'
+    content: 'Instrucciones:</h3><ol><li>Ve al Ejercicio 2 de tu Workbook.</li><li>Para cada "Hábito de Riesgo", define tu "Primer Paso para Implementar" la buena práctica.</li><li>Crea un puente claro entre el problema y la solución.</li></ol>',
+    image: 'assets/images/slide-11.png'
   },
   // Lámina 12
   {
     layout: 'layout-default',
     title: 'Actividad 3: El Muro de Contención',
-    content: '<p><strong>Meta:</strong> Crear "reglas del juego" por escrito que actúen como un muro entre las finanzas del negocio y las personales.</p><div class="content-wrapper" style="display:flex; gap: 20px; margin-top: 40px;"><div style="flex:2;"><h3>Instrucciones:</h3><ol><li>En el Ejercicio 3, pon límites claros para proteger tu negocio y tu patrimonio.</li><li>Define tu <strong>Salario de Director</strong> basado en el valor de mercado.</li><li>Establece tu <strong>Política de Dividendos</strong>.</li></ol></div><div style="flex:1;"><img src="https://placehold.co/400x300/eeeeee/333333?text=Visual+Ejercicio+3" alt="Ejercicio 3"></div></div>'
+    content: '<p><strong>Meta:</strong> Crear "reglas del juego" por escrito que actúen como un muro entre las finanzas del negocio y las personales.</p><div class="content-wrapper" style="display:flex; gap: 20px; margin-top: 40px;"><div style="flex:2;"><h3>Instrucciones:</h3><ol><li>En el Ejercicio 3, pon límites claros para proteger tu negocio y tu patrimonio.</li><li>Define tu <strong>Salario de Director</strong> basado en el valor de mercado.</li><li>Establece tu <strong>Política de Dividendos</strong>.</li></ol></div><div style="flex:1;"><img src="https://placehold.co/400x300/eeeeee/333333?text=Visual+Ejercicio+3" alt="Ejercicio 3"></div></div>',
+    image: 'assets/images/slide-12.png'
   },
   // Lámina 13
   {
     layout: 'layout-split',
     title: 'Actividad 4: Midiendo mi Oxígeno Real',
-    content: '<p><strong>Meta:</strong> Dotarte de una herramienta simple para medir la salud real de tu negocio, basada en <strong>hechos (caja)</strong>.</p><h3>Instrucciones:</h3><ol><li>Vamos al Ejercicio 4. Usarás tus <strong>estados de cuenta bancarios</strong>.</li><li>Calcula tu FCL Base.</li><li>Realiza el "Simulador de Vuelo": ¿Qué pasaría si tus ventas cayeran un 20%?</li></ol>',
-    image: 'https://placehold.co/500x350/eeeeee/333333?text=Visual+Ejercicio+4'
+    content: 'Instrucciones:</h3><ol><li>Vamos al Ejercicio 4. Usarás tus <strong>estados de cuenta bancarios</strong>.</li><li>Calcula tu FCL Base.</li><li>Realiza el "Simulador de Vuelo": ¿Qué pasaría si tus ventas cayeran un 20%?</li></ol>',
+    image: 'assets/images/slide-13.png'
   },
   // Lámina 14
   {
     layout: 'layout-center-focus',
     title: 'Elige Tu Proyecto Clave',
-    content: '<p><strong>Meta:</strong> Enfocar la energía en una <strong>decisión real y de alto impacto</strong>.</p><h2 style="margin-top: 50px; color: var(--accent-color);">¿Cuál es la decisión clave que debes tomar ahora?</h2>',
     image: 'assets/images/slide-14.jpeg'
   },
   // Lámina 15
   {
     layout: 'layout-default',
     title: 'Actividad 5: El Laboratorio de Decisión',
-    content: '<p><strong>Meta:</strong> Experimentar el poder de la toma de decisiones estructurada.</p><div class="content-wrapper" style="display:flex; gap: 20px; margin-top: 40px;"><div style="flex:2;"><h3>Instrucciones:</h3><ol><li>Con tu proyecto clave en mente, ve al Ejercicio 5.</li><li>Pasa tu proyecto por cada uno de los <strong>5 filtros</strong> y emite un veredicto de "SÍ/NO".</li></ul></div><div style="flex:1;"><img src="https://placehold.co/400x300/eeeeee/333333?text=Visual+Ejercicio+5" alt="Ejercicio 5"></div></div>'
+    content: 'Instrucciones:</h3><ol><li>Con tu proyecto clave en mente, ve al Ejercicio 5.</li><li>Pasa tu proyecto por cada uno de los <strong>5 filtros</strong> y emite un veredicto de "SÍ/NO".</li></ul></div><div style="flex:1;"><img src="https://placehold.co/400x300/eeeeee/333333?text=Visual+Ejercicio+5" alt="Ejercicio 5"></div></div>',
+    image: 'assets/images/slide-15.png'
   },
   // Lámina 16
   {
     layout: 'layout-split',
     title: 'Actividad 6: Del Papel a la Acción',
-    content: '<p><strong>Meta:</strong> Asegurar que la claridad obtenida se traduzca en <strong>acción medible</strong>.</p><h3>Instrucciones:</h3><ol><li>Si tu decisión fue "SÍ", ve al Ejercicio 6.</li><li>Define tus <strong>acciones inmediatas (7 días)</strong>.</li><li>Establece tus <strong>hitos clave (30 días)</strong> y tus <strong>objetivos (90 días)</strong>.</li></ol>',
-    image: 'assets/images/slide-16.jpeg'
+    content: 'Instrucciones:</h3><ol><li>Si tu decisión fue "SÍ", ve al Ejercicio 6.</li><li>Define tus <strong>acciones inmediatas (7 días)</strong>.</li><li>Establece tus <strong>hitos clave (30 días)</strong> y tus <strong>objetivos (90 días)</strong>.</li></ol>',
+    image: 'assets/images/slide-16.png'
   },
   // Lámina 17
   {
     layout: 'layout-split',
     title: 'Actividad 7: El Argumento Irrefutable',
-    content: '<p><strong>Meta:</strong> Equiparte con una herramienta de comunicación para presentar y defender tus decisiones con <strong>total confianza</strong>.</p><h3>Instrucciones:</h3><ol><li>Llegamos al entregable final: el Ejercicio 7.</li><li>Consolida toda la información en este formato de <strong>una página</strong>.</li><li>Fírmalo para formalizar tu compromiso.</li></ol>',
-    image: 'assets/images/slide-17.jpeg'
+    content: 'Instrucciones:</h3><ol><li>Llegamos al entregable final: el Ejercicio 7.</li><li>Consolida toda la información en este formato de <strong>una página</strong>.</li><li>Fírmalo para formalizar tu compromiso.</li></ol>',
+    image: 'assets/images/slide-17.png'
   },
-  // Lámina 18 - Título Bloque 3
-  {
-    layout: 'layout-center-focus',
-    title: 'BLOQUE 3: CIERRE Y LLAMADO A LA ACCIÓN',
-    background: 'var(--secondary-color)',
-    titleColor: 'white'
-  },
+
   // Lámina 19
   {
     layout: 'layout-default',
