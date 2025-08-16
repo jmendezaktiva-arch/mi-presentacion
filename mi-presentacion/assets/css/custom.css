@@ -1,0 +1,68 @@
+/* Custom CSS for a professional and clean look with vibrant colors */
+:root {
+    --r-main-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --r-heading-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --primary-color: #005A9C; /* Vibrant Blue */
+    --accent-color: #FF6F61;  /* Vibrant Coral/Orange */
+    --secondary-color: #009B77; /* Vibrant Green */
+    --text-color: #343A40;
+    --heading-color: #212529;
+    --r-background-color: #FFFFFF; /* White background */
+}
+
+.reveal {
+    font-size: 28px;
+    color: var(--text-color);
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+    text-transform: none;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+.reveal h1 { color: var(--primary-color); }
+.reveal h2 { color: var(--primary-color); }
+.reveal strong { color: var(--accent-color); }
+
+
+/* --- LAYOUT TEMPLATES --- */
+
+/* Layout 1: Default (Title top, content below) */
+.layout-default { text-align: left; }
+.layout-default h1, .layout-default h2 { border-bottom: 3px solid var(--secondary-color); padding-bottom: 15px; margin-bottom: 30px; }
+
+/* Layout 2: Center Focus (For titles, key messages, or impactful images) */
+.layout-center-focus { text-align: center; display: flex; flex-direction: column; justify-content: center; height: 100%; }
+
+/* Layout 3: Split Screen (Two columns for text and images) */
+.layout-split { text-align: left; }
+.layout-split .content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.layout-split .content-wrapper > div { flex: 1; }
+.layout-split img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Layout 4: Infographic (For lists, grids, or icon-based content) */
+.layout-infographic { text-align: center; }
+.icon-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.icon-grid .icon-item { text-align: center; }
+.icon-grid .icon-item i { font-size: 4em; color: var(--primary-color); margin-bottom: 10px; }
+.icon-grid .connector { font-size: 3em; color: #ccc; }
+
+.infographic-list { list-style: none; padding: 0; text-align: left; margin-left: 20px;}
+.infographic-list li { display: flex; align-items: flex-start; margin-bottom: 25px; font-size: 0.9em; }
+.infographic-list i { font-size: 1.8em; color: var(--accent-color); margin-right: 20px; width: 45px; text-align: center; margin-top: 5px;}
