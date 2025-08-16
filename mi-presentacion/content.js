@@ -8,7 +8,6 @@ const slideContent = [
     title: '¡Bienvenidos a Consolidación 360°!',
     // 3. El subtítulo y el contenido ya están definidos para la parte izquierda.
     subtitle: 'Gasto Inteligente, Inversiones Efectivas',
-    content: 'Conectar con el dolor del desorden financiero y presentar la promesa de la sesión: el paso del <strong>caos al control</strong>.',
     image: 'assets/images/slide-1.jpeg', // Imagen que irá a la derecha.
     background: '' // 5. Se elimina el fondo para quitar la marca de agua "Plano sutil".
   },
@@ -18,7 +17,7 @@ const slideContent = [
     title: 'Mi Empresa Crece: Nuestra Esencia',
     content: `
       <p style="text-align: center; max-width: 80%; margin: 0 auto 30px auto;">
-        Reforzar que somos el socio estratégico para la transformación sostenible de las PYMES, basados en una <strong>metodología probada</strong>.
+         <strong>metodología probada</strong>.
       </p>
 
       <div class="slide-2-custom-columns">
@@ -40,7 +39,7 @@ const slideContent = [
   {
     layout: 'layout-infographic',
     title: 'Tu Programa de Transformación',
-    content: '<p>Ubicar la sesión dentro del pilar de Inversión, conectándolo con los pilares de Equipo y Ventas para mostrar la visión integral. El objetivo es la <strong>Sostenibilidad</strong> del negocio.</p><div class="icon-grid"><div class="icon-item"><i class="fas fa-users"></i><p>Equipo</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-chart-line"></i><p>Ventas</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-coins" style="color: var(--accent-color);"></i><p><strong>Inversión</strong></p></div></div>'
+    content: 'El objetivo es la <strong>Sostenibilidad</strong> del negocio.</p><div class="icon-grid"><div class="icon-item"><i class="fas fa-users"></i><p>Equipo</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-chart-line"></i><p>Ventas</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-coins" style="color: var(--accent-color);"></i><p><strong>Inversión</strong></p></div></div>'
   },
   // Lámina 4
   {
