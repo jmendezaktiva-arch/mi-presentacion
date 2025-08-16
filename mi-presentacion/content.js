@@ -4,12 +4,12 @@
 const slideContent = [
   // Lámina 1 - MODIFICADA
   {
-    layout: 'layout-split', // 1. Se establece el layout de pantalla dividida.
-    title: '¡Bienvenidos a Consolidación 360°!',
-    // 3. El subtítulo y el contenido ya están definidos para la parte izquierda.
-    subtitle: 'Gasto Inteligente, Inversiones Efectivas',
-    image: 'assets/images/slide-1.jpeg', // Imagen que irá a la derecha.
-    background: '' // 5. Se elimina el fondo para quitar la marca de agua "Plano sutil".
+  layout: 'layout-center-focus', // Cambiado a 'layout-center-focus' para centrar todo el contenido.
+  title: '¡Bienvenidos a Consolidación 360°!',
+  subtitle: 'Gasto Inteligente, Inversiones Efectivas', // Este texto se centrará.
+  // La propiedad 'content' se elimina.
+  image: 'assets/images/slide-1.jpeg', // La imagen se colocará debajo del texto.
+  background: '' 
   },
   // Lámina 2
    {
@@ -17,7 +17,7 @@ const slideContent = [
     title: 'Mi Empresa Crece: Nuestra Esencia',
     content: `
       <p style="text-align: center; max-width: 80%; margin: 0 auto 30px auto;">
-         <strong>metodología probada</strong>.
+         <strong>Metodología probada</strong>.
       </p>
 
       <div class="slide-2-custom-columns">
@@ -39,13 +39,13 @@ const slideContent = [
   {
     layout: 'layout-infographic',
     title: 'Tu Programa de Transformación',
-    content: 'El objetivo es la <strong>Sostenibilidad</strong> del negocio.</p><div class="icon-grid"><div class="icon-item"><i class="fas fa-users"></i><p>Equipo</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-chart-line"></i><p>Ventas</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-coins" style="color: var(--accent-color);"></i><p><strong>Inversión</strong></p></div></div>'
+    content: '<strong>Sostenibilidad</strong> del negocio.</p><div class="icon-grid"><div class="icon-item"><i class="fas fa-users"></i><p>Equipo</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-chart-line"></i><p>Ventas</p></div><div class="connector">&rarr;</div><div class="icon-item"><i class="fas fa-coins" style="color: var(--accent-color);"></i><p><strong>Inversión</strong></p></div></div>'
   },
   // Lámina 4
   {
     layout: 'layout-split',
     title: 'Sus Guías en este Viaje',
-    content: '<p>Presentar a los facilitadores como arquitectos y guías. Se enfatiza el modelo híbrido como garantía de <strong>Responsabilidad compartida</strong>.</p><div style="text-align: center; margin-top: 40px; font-size: 1.2em; font-weight: bold;">Sesión Grupal &rarr; Implementación &rarr; Sesión Individual &rarr; Ajuste</div>',
+    content: '</strong>.</p><div style="text-align: center; margin-top: 40px; font-size: 1.2em; font-weight: bold;">Sesión Grupal &rarr; Implementación &rarr; Sesión Individual &rarr; Ajuste</div>',
     image: 'assets/images/slide-4.jpeg',
     image2: 'assets/images/slide-4.png'
   },
