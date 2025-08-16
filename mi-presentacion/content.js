@@ -2,14 +2,15 @@
 // Para editar el texto de una diapositiva, solo modifica el objeto correspondiente aquí.
 
 const slideContent = [
-  // Lámina 1
+  // Lámina 1 - MODIFICADA
   {
-    layout: 'layout-center-focus',
+    layout: 'layout-split', // 1. Se establece el layout de pantalla dividida.
     title: '¡Bienvenidos a Consolidación 360°!',
+    // 3. El subtítulo y el contenido ya están definidos para la parte izquierda.
     subtitle: 'Gasto Inteligente, Inversiones Efectivas',
-    content: 'Conectar con el dolor del desorden financiero y presentar la promesa de la sesión: el paso del <strong>caos al control</strong>. Se valida su Decisión de estar aquí.',
-    image: 'assets/images/slide-1.jpeg',
-    background: 'https://placehold.co/1200x800/f8f9fa/e9ecef?text=Plano+Sutil'
+    content: 'Conectar con el dolor del desorden financiero y presentar la promesa de la sesión: el paso del <strong>caos al control</strong>.',
+    image: 'assets/images/slide-1.jpeg', // Imagen que irá a la derecha.
+    background: '' // 5. Se elimina el fondo para quitar la marca de agua "Plano sutil".
   },
   // Lámina 2
   {
