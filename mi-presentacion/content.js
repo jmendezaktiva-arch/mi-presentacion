@@ -52,11 +52,11 @@ const slideContent = [
   },
   // Lámina 5
   {
-    layout: 'layout-default',
-    title: 'Reglas del Juego y Dinámica',
-    content: '<p>Establecer un marco de Responsabilidad y compromiso. No son reglas, son los <strong>cimientos para construir juntos</strong>.</p><ul class="infographic-list" style="margin-top: 50px;"><li><i class="fas fa-video"></i> <div><strong>Cámara encendida = Compromiso</strong><br>Estar presente y conectado con el grupo.</div></li><li><i class="fas fa-microphone-lines"></i> <div><strong>Participación activa = Proactividad</strong><br>Tu aprendizaje depende de tu involucramiento.</div></li><li><i class="fas fa-lightbulb"></i> <div><strong>Mente abierta = Crecimiento</strong><br>Dispuesto a desaprender y adoptar nuevos métodos.</div></li><li><i class="fas fa-clock"></i> <div><strong>Puntualidad = Respeto</strong><br>Valoramos tu tiempo y el de los demás.</div></li></ul>'
+  layout: 'layout-default slide-5-custom', // Añadimos una clase para estilos específicos
+  title: 'Reglas del Juego y Dinámica',
+  content: '<p style="text-align: center;">Establecer un marco de Responsabilidad y compromiso. No son reglas, son los <strong>cimientos para construir juntos</strong>.</p><ul class="infographic-list"><li><i class="fas fa-video"></i> <div><strong>Cámara encendida = Compromiso</strong><br>Estar presente y conectado con el grupo.</div></li><li><i class="fas fa-microphone-lines"></i> <div><strong>Participación activa = Proactividad</strong><br>Tu aprendizaje depende de tu involucramiento.</div></li><li><i class="fas fa-lightbulb"></i> <div><strong>Mente abierta = Crecimiento</strong><br>Dispuesto a desaprender y adoptar nuevos métodos.</div></li><li><i class="fas fa-clock"></i> <div><strong>Puntualidad = Respeto</strong><br>Valoramos tu tiempo y el de los demás.</div></li></ul>'
   },
-  // Lámina 6
+  // Lámina 6   
 {
     layout: 'layout-default', // Usamos un layout flexible para control total
     title: 'Objetivos de Hoy: Tu Kit de Herramientas',
