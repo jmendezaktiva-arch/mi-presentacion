@@ -181,10 +181,6 @@
   flex-grow: 3;              /* Clave para el centrado vertical: ocupa el espacio disponible */
 }
 
-.icon-grid .icon-item {
-  text-align: center;
-}
-
 /* Aumenta el tamaño de los iconos */
 .icon-grid .icon-item i {
   font-size: 4em;  /* Tamaño de icono incrementado */
