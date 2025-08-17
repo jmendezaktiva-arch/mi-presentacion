@@ -170,17 +170,14 @@
 }
 
 /* --- Estilos para Diapositiva 3 (Infografía Horizontal) --- */
-/* REEMPLAZA las reglas anteriores de .icon-grid con este bloque */
-
 .icon-grid {
   display: flex;
-  justify-content: center;   /* Mantiene el centrado horizontal */
-  align-items: center;       /* Alinea los elementos verticalmente entre sí */
-  gap: 50px;                 /* Aumenta el espacio entre elementos */
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
   width: 100%;
-  /* Las siguientes 2 líneas centran el bloque de iconos verticalmente */
-  margin-top: auto;
-  margin-bottom: auto;
+  /* Con este margen, empujamos los iconos hacia abajo */
+  margin-top: 80px;
 }
 
 /* Aumenta el tamaño de los iconos */
