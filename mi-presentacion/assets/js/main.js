@@ -6,9 +6,11 @@ document.addEventListener('DOMContentLoaded', function() {
         slide.className = slideData.layout || 'layout-default';
 
         if (slideData.background) {
-            if (slideData.background.startsWith('http')) {
+            // Comprueba si el fondo es una ruta de imagen (contiene .jpeg, .jpg, .png, .gif) o una URL
+            if (slideData.background.includes('.jpeg') || slideData.background.includes('.jpg') || slideData.background.includes('.png') || slideData.background.startsWith('http')) {
                 slide.setAttribute('data-background-image', slideData.background);
             } else {
+                // Si no es una imagen, lo trata como un color
                 slide.setAttribute('data-background-color', slideData.background);
             }
         }
