@@ -228,6 +228,12 @@
   object-fit: cover;
 }
 
+/* Centra el título de la diapositiva 6 */
+.slide-6-custom h1 {
+  text-align: center;
+  width: 100%;
+}
+
 /* --- ESTILO PARA EL LOGO FIJO EN LA ESQUINA --- */
 .logo-esquina {
   position: fixed;            /* Lo fija en la ventana del navegador */
