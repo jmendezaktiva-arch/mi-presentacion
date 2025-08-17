@@ -116,7 +116,7 @@ const slideContent = [
     layout: 'layout-split',
     title: 'Actividad 2: Del Hábito al Método',
     content: 'Instrucciones:</h3><ol><li>Ve al Ejercicio 2 de tu Workbook.</li><li>Para cada "Hábito de Riesgo", define tu "Primer Paso para Implementar" la buena práctica.</li><li>Crea un puente claro entre el problema y la solución.</li></ol>',
-    image: 'assets/images/slide-11.png'
+    image: 'assets/images/slide-10.jpeg'
   },
   // Lámina 12
   {
