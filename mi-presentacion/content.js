@@ -122,8 +122,8 @@ const slideContent = [
   {
     layout: 'layout-default',
     title: 'Actividad 3: El Muro de Contención',
-    content: '<p><strong>Meta:</strong> Crear "reglas del juego" por escrito que actúen como un muro entre las finanzas del negocio y las personales.</p><div class="content-wrapper" style="display:flex; gap: 20px; margin-top: 40px;"><div style="flex:2;"><h3>Instrucciones:</h3><ol><li>En el Ejercicio 3, pon límites claros para proteger tu negocio y tu patrimonio.</li><li>Define tu <strong>Salario de Director</strong> basado en el valor de mercado.</li><li>Establece tu <strong>Política de Dividendos</strong>.</li></ol></div><div style="flex:1;"><img src="https://placehold.co/400x300/eeeeee/333333?text=Visual+Ejercicio+3" alt="Ejercicio 3"></div></div>',
-    image: 'assets/images/slide-12.png'
+    content: 'Instrucciones:</h3><ol><li>En el Ejercicio 3, pon límites claros para proteger tu negocio y tu patrimonio.</li><li>Define tu <strong>Salario de Director</strong> basado en el valor de mercado.</li><li>Establece tu <strong>Política de Dividendos</strong>.</li></ol></div><div style="flex:1;"><img src="https://placehold.co/400x300/eeeeee/333333?text=Visual+Ejercicio+3" alt="Ejercicio 3"></div></div>',
+    image: 'assets/images/slide-13.jpeg'
   },
   // Lámina 13
   {
