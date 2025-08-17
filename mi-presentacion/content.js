@@ -157,7 +157,7 @@ const slideContent = [
     layout: 'layout-split',
     title: 'Actividad 7: El Argumento Irrefutable',
     content: 'Instrucciones:</h3><ol><li>Llegamos al entregable final: el Ejercicio 7.</li><li>Consolida toda la información en este formato de <strong>una página</strong>.</li><li>Fírmalo para formalizar tu compromiso.</li></ol>',
-    image: 'assets/images/slide-17.png'
+    image: 'assets/images/slide-23.jpeg'
   },
 
   // Lámina 19
