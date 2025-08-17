@@ -118,13 +118,13 @@ const slideContent = [
     content: 'Instrucciones:</h3><ol><li>Ve al Ejercicio 2 de tu Workbook.</li><li>Para cada "Hábito de Riesgo", define tu "Primer Paso para Implementar" la buena práctica.</li><li>Crea un puente claro entre el problema y la solución.</li></ol>',
     image: 'assets/images/slide-10.jpeg'
   },
-  // Lámina 12
-  {
-    layout: 'layout-default',
-    title: 'Actividad 3: El Muro de Contención',
-    content: 'Instrucciones:</h3><ol><li>En el Ejercicio 3, pon límites claros para proteger tu negocio y tu patrimonio.</li><li>Define tu <strong>Salario de Director</strong> basado en el valor de mercado.</li><li>Establece tu <strong>Política de Dividendos</strong>.</li></ol>',
-    image: 'assets/images/slide-13.jpeg'
-  },
+// Lámina 12
+{
+  layout: 'layout-split',
+  title: 'Actividad 3: El Muro de Contención',
+  content: 'Instrucciones:</h3><ol><li>En el Ejercicio 3, pon límites claros para proteger tu negocio y tu patrimonio.</li><li>Define tu <strong>Salario de Director</strong> basado en el valor de mercado.</li><li>Establece tu <strong>Política de Dividendos</strong>.</li></ol>',
+  image: 'assets/images/slide-13.jpeg'
+},
   // Lámina 13
   {
     layout: 'layout-split',
