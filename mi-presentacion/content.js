@@ -150,7 +150,7 @@ const slideContent = [
     layout: 'layout-split',
     title: 'Actividad 6: Del Papel a la Acción',
     content: 'Instrucciones:</h3><ol><li>Si tu decisión fue "SÍ", ve al Ejercicio 6.</li><li>Define tus <strong>acciones inmediatas (7 días)</strong>.</li><li>Establece tus <strong>hitos clave (30 días)</strong> y tus <strong>objetivos (90 días)</strong>.</li></ol>',
-    image: 'assets/images/slide-16.png'
+    image: 'assets/images/slide-22.jpeg'
   },
   // Lámina 17
   {
