@@ -178,7 +178,9 @@
   align-items: center;       /* Alinea los elementos verticalmente entre sí */
   gap: 50px;                 /* Aumenta el espacio entre elementos */
   width: 100%;
-  flex-grow: 3;              /* Clave para el centrado vertical: ocupa el espacio disponible */
+  /* Las siguientes 2 líneas centran el bloque de iconos verticalmente */
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* Aumenta el tamaño de los iconos */
