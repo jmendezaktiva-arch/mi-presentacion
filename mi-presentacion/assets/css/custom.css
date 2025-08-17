@@ -238,3 +238,34 @@
   width: 100px;               /* Ancho sugerido (ver recomendación abajo) */
   height: auto;               /* Mantiene la proporción */
 }
+
+/* --- Estilos para Diapositiva 5 (Reglas del Juego) --- */
+
+/* 1. Centra el título para esta diapositiva específica */
+.slide-5-custom h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.infographic-list {
+  list-style: none; /* Quitamos los puntos de la lista */
+  padding-left: 0;
+  max-width: 80%;   /* Hacemos la lista un poco más angosta */
+  margin: 40px auto 0 auto; /* Centramos la lista y le damos margen superior */
+}
+
+/* 3. Coloca el icono antes del texto y los alinea */
+.infographic-list li {
+  display: flex;
+  align-items: center; /* Alinea icono y texto verticalmente */
+  margin-bottom: 25px; /* Espacio entre cada regla */
+}
+
+/* 2. Incrementa el tamaño de los iconos y les da color */
+.infographic-list i {
+  font-size: 2.5em; /* Iconos más grandes */
+  color: var(--secondary-color); /* Usamos un color del tema */
+  margin-right: 25px; /* Espacio entre el icono y el texto */
+  width: 50px;
+  text-align: center;
+}
