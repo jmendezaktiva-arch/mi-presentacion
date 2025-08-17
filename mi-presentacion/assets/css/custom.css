@@ -178,7 +178,7 @@
   align-items: center;       /* Alinea los elementos verticalmente entre sí */
   gap: 50px;                 /* Aumenta el espacio entre elementos */
   width: 100%;
-  flex-grow: 1;              /* Clave para el centrado vertical: ocupa el espacio disponible */
+  flex-grow: 3;              /* Clave para el centrado vertical: ocupa el espacio disponible */
 }
 
 .icon-grid .icon-item {
