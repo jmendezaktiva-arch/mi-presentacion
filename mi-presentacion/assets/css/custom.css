@@ -280,3 +280,9 @@
   width: 50px;
   text-align: center;
 }
+
+/* Centra el título de la diapositiva 19 */
+.slide-19-custom h1 {
+  text-align: center;
+  width: 100%;
+}
