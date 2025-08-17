@@ -109,7 +109,7 @@ const slideContent = [
     layout: 'layout-split',
     title: 'Actividad 1: Diagnóstico de Honestidad Radical',
     content: 'Instrucciones:</h3><ol><li>Abre tu Workbook - Ejercicio 1.</li><li>Sé <strong>brutalmente honesto</strong>. Este es un espejo, no un examen.</li><li>Reflexiona y anota: ¿Cuál es el hábito N°1 que más se repite en tus decisiones financieras?</li></ol>',
-    image: 'assets/images/slide-10.png'
+    image: 'assets/images/assets/images/slide-9.jpeg'
   },
    // Lámina 11
   {
