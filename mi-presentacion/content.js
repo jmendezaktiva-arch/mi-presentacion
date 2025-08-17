@@ -138,13 +138,13 @@ const slideContent = [
     title: 'Elige Tu Proyecto Clave',
     image: 'assets/images/slide-14.jpeg'
   },
-  // Lámina 15
-  {
-    layout: 'layout-default',
-    title: 'Actividad 5: El Laboratorio de Decisión',
-    content: 'Instrucciones:</h3><ol><li>Con tu proyecto clave en mente, ve al Ejercicio 5.</li><li>Pasa tu proyecto por cada uno de los <strong>5 filtros</strong> y emite un veredicto de "SÍ/NO".</li></ul></div><div style="flex:1;">',
-    image: 'assets/images/slide-21.jpeg'
-  },
+// Lámina 15
+{
+  layout: 'layout-split',
+  title: 'Actividad 5: El Laboratorio de Decisión',
+  content: '<h3>Instrucciones:</h3><ol><li>Con tu proyecto clave en mente, ve al Ejercicio 5.</li><li>Pasa tu proyecto por cada uno de los <strong>5 filtros</strong> y emite un veredicto de "SÍ/NO".</li></ol>',
+  image: 'assets/images/slide-21.jpeg'
+},
   // Lámina 16
   {
     layout: 'layout-split',
