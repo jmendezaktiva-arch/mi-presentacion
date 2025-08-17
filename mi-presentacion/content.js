@@ -58,7 +58,7 @@ const slideContent = [
   },
   // Lámina 6   
 {
-    layout: 'layout-default', // Usamos un layout flexible para control total
+    layout: 'layout-default slide-6-custom', // Añadimos una clase para estilos específicos
     title: 'Objetivos de Hoy: Tu Kit de Herramientas',
     content: `
       
