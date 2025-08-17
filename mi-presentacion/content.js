@@ -171,8 +171,8 @@ const slideContent = [
     layout: 'layout-center-focus',
     title: 'Tu PYME Merece un Arquitecto,<br>no un Apostador',
     content: '<p style="color: white; margin-top: 40px;">El futuro de tu negocio ya no depende de la suerte, la intuición o la presión del momento. <strong>La primera decisión empieza ahora.</strong></p>',
-    background: 'https://placehold.co/1200x800/2c3e50/ffffff?text=',
-    titleColor: 'white'
+    background: 'slide-24.jpeg',
+    titleColor: 'blue'
   },
   // Lámina 21
   {
