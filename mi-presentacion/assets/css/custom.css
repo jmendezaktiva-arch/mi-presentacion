@@ -232,3 +232,14 @@
   border-radius: 8px;
   object-fit: cover;
 }
+
+/* --- ESTILO PARA EL LOGO FIJO EN LA ESQUINA --- */
+.logo-esquina {
+  position: fixed;            /* Lo fija en la ventana del navegador */
+  top: 25px;                  /* Distancia desde la parte superior */
+  right: 30px;                /* Distancia desde la derecha */
+  z-index: 100;               /* Asegura que esté por encima de todo */
+  opacity: 0.6;               /* Transparencia para que no compita con el título */
+  width: 100px;               /* Ancho sugerido (ver recomendación abajo) */
+  height: auto;               /* Mantiene la proporción */
+}
