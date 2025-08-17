@@ -160,12 +160,12 @@ const slideContent = [
     image: 'assets/images/slide-23.jpeg'
   },
 
- // Lámina 19
-{
-  layout: 'layout-default slide-19-custom',
-  title: 'De Reaccionar a Construir',
-  content: '<ul class="infographic-list" style="margin-top: 40px; font-size: 1.1em;"><li>...'
-},
+  // Lámina 19
+  {
+    layout: 'layout-default slide-19-custom',
+    title: 'De Reaccionar a Construir',
+    content: '<ul class="infographic-list" style="margin-top: 40px; font-size: 1.1em;"><li><i class="fas fa-water"></i> <div><strong>Incertidumbre de liquidez</strong> &rarr; <strong>Flujo de Caja Libre</strong>.</div></li><li><i class="fas fa-dollar-sign"></i> <div><strong>Gastos sin evaluación</strong> &rarr; <strong>Prima de Riesgo del 20%</strong>.</div></li><li><i class="fas fa-question-circle"></i> <div><strong>Miedo a lo desconocido</strong> &rarr; <strong>Matriz de Riesgo</strong>.</div></li><li><i class="fas fa-random"></i> <div><strong>Mezcla de finanzas</strong> &rarr; <strong>Marco 4+1</strong>.</div></li></ul>'
+  },
   // Lámina 20
   {
     layout: 'layout-center-focus',
