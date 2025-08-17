@@ -122,7 +122,7 @@ const slideContent = [
   {
     layout: 'layout-default',
     title: 'Actividad 3: El Muro de Contención',
-    content: 'Instrucciones:</h3><ol><li>En el Ejercicio 3, pon límites claros para proteger tu negocio y tu patrimonio.</li><li>Define tu <strong>Salario de Director</strong> basado en el valor de mercado.</li><li>Establece tu <strong>Política de Dividendos</strong>.</li></ol></div><div style="flex:1;"></div></div>',
+    content: 'Instrucciones:</h3><ol><li>En el Ejercicio 3, pon límites claros para proteger tu negocio y tu patrimonio.</li><li>Define tu <strong>Salario de Director</strong> basado en el valor de mercado.</li><li>Establece tu <strong>Política de Dividendos</strong>.</li></ol>',
     image: 'assets/images/slide-13.jpeg'
   },
   // Lámina 13
