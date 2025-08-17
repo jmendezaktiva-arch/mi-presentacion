@@ -130,7 +130,7 @@ const slideContent = [
     layout: 'layout-split',
     title: 'Actividad 4: Midiendo mi Oxígeno Real',
     content: 'Instrucciones:</h3><ol><li>Vamos al Ejercicio 4. Usarás tus <strong>estados de cuenta bancarios</strong>.</li><li>Calcula tu FCL Base.</li><li>Realiza el "Simulador de Vuelo": ¿Qué pasaría si tus ventas cayeran un 20%?</li></ol>',
-    image: 'assets/images/slide-13.png'
+    image: 'assets/images/slide-20.jpeg'
   },
   // Lámina 14
   {
