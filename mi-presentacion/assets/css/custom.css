@@ -256,7 +256,7 @@
   list-style: none; /* Quitamos los puntos de la lista */
   padding-left: 0;
   max-width: 80%;   /* Hacemos la lista un poco más angosta */
-  margin: 150px auto 0 auto; /* Margen para separar la lista del párrafo */
+  margin: 50px auto 0 auto; /* Margen para separar la lista del párrafo */
 }
 
 /* 3. Coloca el icono antes del texto y los alinea */
