@@ -170,7 +170,7 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'Tu PYME Merece un Arquitecto,<br>no un Apostador',
-    content: '<p style="color: blue; margin-top: 40px;">El futuro de tu negocio ya no depende de la suerte, la intuición o la presión del momento. <strong>La primera decisión empieza ahora.</strong></p>',
+    content: '<p style="color: dark blue; margin-top: 40px;">El futuro de tu negocio ya no depende de la suerte, la intuición o la presión del momento. <strong>La primera decisión empieza ahora.</strong></p>',
     background: 'assets/images/slide-24.jpeg',
     titleColor: 'dark blue'
   },
