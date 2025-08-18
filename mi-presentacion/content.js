@@ -178,6 +178,6 @@ const slideContent = [
   {
     layout: 'layout-center-focus',
     title: 'Gracias. El Viaje Continúa.',
-    content: '<div style="margin-top: 50px;"><h3>Próximos Pasos:</h3><ul style="list-style: none; padding-left: 0; text-align: center;"><li style="margin-bottom: 15px;"><strong>Implementación:</strong> Usa tu Plan de 90 días como tu guía.</li><li style="margin-bottom: 15px;"><strong>Sesión Individual:</strong> Agendaremos tu sesión uno a uno.</li><li style="margin-bottom: 15px;"><strong>Comunidad:</strong> Comparte tus éxitos y desafíos.</li></ul><p style="margin-top: 80px;">Jorge Méndez</p></div>'
+    content: '<div style="margin-top: 50px;"><h3>Próximos Pasos:</h3><ul style="list-style: none; padding-left: 0; text-align: center;"><li style="margin-bottom: 15px;"><strong>Implementación:</strong> Usa tu Plan de 90 días como tu guía.</li><li style="margin-bottom: 15px;"><strong>Sesión Individual:</strong> Agendaremos tu sesión uno a uno.</li><li style="margin-bottom: 15px;"><strong>Comunidad:</strong> Comparte tus éxitos y desafíos.</li></ul><p style="margin-top: 80px;">Consolidación 360º</p></div>'
   }
 ];
